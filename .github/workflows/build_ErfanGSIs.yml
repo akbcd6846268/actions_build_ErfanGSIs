@@ -15,8 +15,7 @@ on:
     
 env:
   ROM_URL: https://bigota.d.miui.com/21.11.24/miui_CEPHEUS_21.11.24_d1e07cc091_11.0.zip
-  ROM_NAME: MIUI
-  BUILD_TYPE: ab
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
@@ -47,7 +46,7 @@ jobs:
               sudo bash ./setup.sh
        
        - name: Download Stock Rom & Generate GSI
-         run: sudo bash ./ErfanGSIs/url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME
+         run: sudo bash ./ErfanGSIs/url2GSI.sh -c --$ROM_URL $ROM_NAME
        
        - name: Zip GSI  
          run: |
