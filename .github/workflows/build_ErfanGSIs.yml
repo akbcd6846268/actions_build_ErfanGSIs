@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V10.2.5.0.PFACNXM/miui_CEPHEUS_V10.2.5.0.PFACNXM_64a26fe7ce_9.0.zip
+  ROM_URL: https://bigota.d.miui.com/V10.3.8.0.PFJCNXM/miui_DAVINCI_V10.3.8.0.PFJCNXM_968e5a975a_9.0.zip
   ROM_NAME: MIUI
   BUILD_TYPE: aonly
   TZ: Asia/Shanghai
